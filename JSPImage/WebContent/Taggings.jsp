@@ -8,7 +8,9 @@
 <title>CustomTags</title>
 </head>
 <body>
-	 <m:gify>img/giphy.gif</m:gify>
-	 <m:gify>img/tools.jpg</m:gify>
+	<m:gify src="img/tools.jpg" height="100" width="100"/>
+	<m:gify src="img/tools.jpg" height="100" width="100" box="2"/>
+	<m:gify src="img/giphy.gif" height="100" width="100" label="world.gif"/>
+	<m:gify src="img/giphy.gif" height="100" width="100" label="world.gif" box="2"/>
 </body>
 </html>

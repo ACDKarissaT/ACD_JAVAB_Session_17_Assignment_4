@@ -6,6 +6,36 @@
    <tag>
       <name>gify</name>
       <tag-class>tags.GifTag</tag-class>
-      <body-content>scriptless</body-content>
+      <body-content>empty</body-content>
+      
+      <attribute>
+      	<name>src</name>
+      	<required>true</required>
+      	<type>String</type>
+      </attribute>
+      
+      <attribute>
+      	<name>box</name>
+      	<required>false</required>
+      	<type>int</type>
+      </attribute>
+      
+      <attribute>
+      	<name>height</name>
+      	<required>false</required>
+      	<type>int</type>
+      </attribute>
+      
+      <attribute>
+      	<name>width</name>
+      	<required>false</required>
+      	<type>int</type>
+      </attribute>
+      
+      <attribute>
+      	<name>label</name>
+      	<required>false</required>
+      	<type>String</type>
+      </attribute>
    </tag>
 </taglib>
